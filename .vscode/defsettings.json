@@ -1,0 +1,11 @@
+{
+    "deckip"    : "0.0.0.0",
+    "deckport"  : "22",
+    "deckpass"  : "ssap",
+    "deckkey"   : "-i ${env:HOME}/.ssh/id_rsa",
+    "deckdir"   : "/home/deck",
+    "pluginname": "Example Plugin",
+    "python.analysis.extraPaths": [
+        "./py_modules"
+    ]
+}
